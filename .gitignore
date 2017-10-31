@@ -1,0 +1,7 @@
+.Secrets.txt
+.DS_Store
+
+#Comment
+#Pod files: blah blah
+# we can use wildcard
+#	ex: *.txt
