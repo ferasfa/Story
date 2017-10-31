@@ -1,0 +1,16 @@
+Some git commands:
+
+git init 	--> initiates git local repository
+git add . 	--> add the whole directory I am in to the git
+git status	--> shows what's in the staging 
+git log 	--> shows commit log
+git rm --cached -r .		--> removes everything in the directory from staging
+git rm --cached <file name>	--> removes a named file from staging
+git commit -m "message"		--> commits everything in staging directory with a subject : "message"
+git checkout <file name>	--> restores a named file from the last checkpoint
+
+#to add remote repository:
+git remote add origin https://github.com/ferasfa/Story.git	--> create remote repository with name "origin" on location "https://github.com/ferasfa/Story.git"
+git push -u origin master	--> push the content of the local repository to the remote repository called "origin"
+
+
